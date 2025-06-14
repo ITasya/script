@@ -9,7 +9,7 @@ const sourceStageId = 'UC_UX6XY1';
 const targetStageId = 'UC_X03LAW';
 const batchSize = 3;
 const dailyLimit = 30;
-const startHour = 10; // ⏰ С какого часа разрешено начинать запуск
+const startHour = 15; // ⏰ С какого часа разрешено начинать запуск
 
 const logFilePath = path.join(__dirname, 'deal-transfer.log');
 const counterFilePath = path.join(__dirname, 'daily-counter.json');
